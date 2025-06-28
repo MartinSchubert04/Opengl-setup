@@ -1,6 +1,6 @@
 # Setup for opengl in visual studio 2022
 
-VS-code setup https://github.com/MartinSchubert04/Opengl-setup/tree/vs-code
+VS-code setup [here](https://github.com/MartinSchubert04/Opengl-setup/tree/vs-code)
 
 Clone this repositori and open the .sln file with visual studio
 
