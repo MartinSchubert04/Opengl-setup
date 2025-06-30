@@ -13,6 +13,6 @@ Ejecutar codigo de prueba con boton de play de Cmake, pero da ERROR (ya que se e
 
 
 
-Visualizacion correcta ejecutando desde raiz
+Visualizacion correcta, ejecutando desde raiz (SIEMPRE debe ser desde raiz o los shader no se encontraran al compilar y dara el error previo)
 
 ![image](https://github.com/user-attachments/assets/a0a8feaf-9e28-45ee-97ad-59e671510a63)
