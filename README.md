@@ -7,7 +7,7 @@ Verificar ruta en CmkaeLists.txt (esta debe ser cambiada si hay distintos .cpp d
 ![image](https://github.com/user-attachments/assets/b80c017b-eeba-41ad-8e49-3133988820c9)
 
 
-Ejecutar codigo de prueba con boton de play de Cmake, pero da ERROR (ya que se ejecuto desde un directorio erroneo ya que cmake ejecuta desde forma por defecto en {workspaceFolder}/build/Debug, pero se busca hacerlo desde la raiz)
+Ejecutar codigo de prueba con boton de play de Cmake, pero da ERROR (ya que se ejecuto desde un directorio erroneo porque cmake ejecuta desde forma por defecto en {workspaceFolder}/build/Debug, pero se busca hacerlo desde la raiz)
 
 ![image](https://github.com/user-attachments/assets/ca42850c-e00f-4db0-8402-12c167dcb187)
 
