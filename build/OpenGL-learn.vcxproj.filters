@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Martin\Desktop\ComputerScience\Proyects\Opengl-setup\src\App\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Martin\Desktop\ComputerScience\Proyects\Opengl-setup\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Martin\Desktop\ComputerScience\Proyects\Opengl-setup\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A50FEE6C-76B6-3E23-AA40-586A966BC9F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

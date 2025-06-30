@@ -1,0 +1,3 @@
+C:/Users/Martin/Desktop/ComputerScience/Proyects/Opengl-setup/build/CMakeFiles/OpenGL-learn.dir
+C:/Users/Martin/Desktop/ComputerScience/Proyects/Opengl-setup/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Martin/Desktop/ComputerScience/Proyects/Opengl-setup/build/CMakeFiles/ZERO_CHECK.dir
