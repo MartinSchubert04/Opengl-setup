@@ -13,7 +13,7 @@
 #include <stb_image.h>
 #include <iostream>
 
-#include "utils/Shader.h"
+#include "shader/Shader.h"
 #include "camera/Camera.h"
 
 void framebuffer_size_callback(GLFWwindow *window, int width, int height);

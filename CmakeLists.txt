@@ -26,7 +26,7 @@ find_package(glfw3 CONFIG REQUIRED)
 # Sources
 # ===============================
 set(SOURCE_FILE
-    src/ex.cpp
+    src/2-flashLight.cpp
 )
 
 set(IMGUI_SOURCES
@@ -44,7 +44,7 @@ set(SOURCES
     ${IMGUI_SOURCES}
 )
 
-file(COPY "${CMAKE_SOURCE_DIR}/src/shaders" DESTINATION "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
+file(COPY "${CMAKE_SOURCE_DIR}/shaders" DESTINATION "${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
 
 # ===============================
 # Executable
