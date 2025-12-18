@@ -26,7 +26,7 @@ find_package(glfw3 CONFIG REQUIRED)
 # Sources
 # ===============================
 set(SOURCE_FILE
-    src/2-flashLight.cpp
+    src/ex.cpp
 )
 
 set(IMGUI_SOURCES
@@ -73,12 +73,25 @@ target_compile_definitions(${APP} PRIVATE
     IMGUI_IMPL_OPENGL_LOADER_GLAD
 )
 
+set(ASSIMP_DIR ${CMAKE_SOURCE_DIR}/external/assimp)
+
+target_include_directories(openGL PRIVATE
+    ${ASSIMP_DIR}/include
+)
+
+add_custom_command(TARGET openGL POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E copy_if_different
+    ${ASSIMP_DIR}/bin/libassimp-6.dll
+    $<TARGET_FILE_DIR:openGL>
+)
+
 # ===============================
 # Link libraries
 # ===============================
 target_link_libraries(${APP} PRIVATE
     OpenGL::GL
     glfw
+    ${ASSIMP_DIR}/lib/libassimp.dll.a
 )
 
 # ===============================
